@@ -25,7 +25,7 @@ namespace Auth0JWT.Data
                 }
             };
         }
-        public Task<List<QuizItem>> GetQizAsync()
+        public Task<List<QuizItem>> GetQuizAsync()
 		{
             return Task.FromResult(Quiz);
 		}
